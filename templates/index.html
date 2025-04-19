@@ -1,53 +1,40 @@
-<!DOCTYPE html>
 <html>
 <head>
-    <title>Моя страница</title>
-    <style>
-        p {
-            font-family:'Times New Roman', Times, serif;
-            font-size:20px;
-        }
-        .description {
-            color:brown;
-        }
-        .img {
-            height: 200px;
-            width: 400px;
-            background:aquamarine
-        }
-        img {
-            height: 50%;
-            width: 50%;
-        }
-        .container {
-            display: block;
-            
-            flex-direction: line;
-            align-items: center;
-        }
-
-    </style>
+    <title>Маникюр</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    <div class="container">
-        <div>
-            <h1>Добро пожаловать на нашу страницу!</h1>
-        </div>
-        <div>
-            <div class="description">
-            <p>Я учащийся СамГТУ, меня зовут Лобанова Юлия Ивановна</p>
-            <p>Я учусь на 1 курсе</p>
-            <p style="color:black; font-size:35px">на кафедре автоматизация и управления технологическими процессами</p>
-            </div>
-        </div>
-        <div class="img">
-            <img src="https://s.rbk.ru/v1_companies_s3/media/trademarks/ab582cb8-ee49-4652-b47d-5ec5f270bcb9.jpg"/>
-        </div>
-        <div class="actions">
-            <button onClick="location.href='https://lk.samgtu.ru'">Лк СамГТУ</button>
-            <a href="https://lms.samgtu.ru">Мудл СамГТУ</a>
+    <div>
+        <h1 align="center">Добро пожаловать на мою страницу!</h1>
+        <h2 align="center">Эта спраница о моей любимой деятельности!</h2>
+    </div>
+    <div>
+        <div class="description">
+            <p>Меня зовут Лобанова Юлия Ивановна</p>
+            <p>На протяжении 3х лет я занимаюсь маникюром и создаю красоту!
+                Работаю на жёстких материалах, поэтому ваши ноготки будут тонкими и крепкими!
+                Приятно проведёте время и останетесь довольны!
+            </p>
+            <p>Познакомлю вас с некоторыми моими работами:</p>
         </div>
     </div>
+    <div class="img">
+        <img src="c:\Users\julia\Downloads\Telegram Desktop\photo_2025-04-17_22-17-39.jpg"/>
+        <img src="c:\Users\julia\Downloads\Telegram Desktop\photo_2025-04-17_22-17-04.jpg"/>
+        <img src="c:\Users\julia\Downloads\Telegram Desktop\photo_2025-04-17_22-17-23.jpg"/>
+        <img src="c:\Users\julia\Downloads\Telegram Desktop\photo_2025-04-17_22-28-02.jpg"/>
+    </div>
+    <div>
+        <div class="description">
+            <p>Жду вас ко мне на маникюр!
+                А пока оставлю ссылку на идеи красивого покрытия, которое мы с вами сделаем!
+            </p>
+        </div>
+    </div>
+    <div class="actions">
+        <button onClick="location.href='https://ru.pinterest.com/search/pins/?q=красивый%20маникюр%20на%20весну%202025&rs=guide&journey_depth=1&source_module_id=OB_%25D0%25BA%25D1%2580%25D0%25B0%25D1%2581%25D0%25B8%25D0%25B2%25D1%258B%25D0%25B9%2520%25D0%25BC%25D0%25B0%25D0%25BD%25D0%25B8%25D0%25BA%25D1%258E%25D1%2580%2520%25D0%25BD%25D0%25B0%2520%25D0%25B2%25D0%25B5%25D1%2581%25D0%25BD%25D1%2583%25202025_a3465b74-8dec-4250-9f34-6ff39ed437f0&add_refine=На%20весну%202025%7Cguide%7Cword%7C2'">Вдохновение</button>
+    </div>
+    
     
 
 </body>
